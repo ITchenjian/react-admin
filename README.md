@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Preview address: [https://itchenjian.github.io/preview/react-admin/index.html]
+
 ## Available Scripts
 
 In the project directory, you can run:
