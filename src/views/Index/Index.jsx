@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import { Layout, Row, Col, Divider } from 'antd'
 import { WechatOutlined, QqOutlined, DingdingOutlined, WeiboOutlined, FullscreenOutlined } from '@ant-design/icons'
-// import screenfull from 'screenfull'
+import screenfull from 'screenfull'
 import '@/style/view-style/index.scss'
 
 import BarEcharts from './bar.jsx'
@@ -12,10 +12,9 @@ import PictorialBarEcharts from './pictorialBar.jsx'
 
 class Index extends Component {
     fullToggle = () => {
-        console.log(this)
-        /* if (screenfull.isEnabled) {
+        if (screenfull.isEnabled) {
             screenfull.request(document.getElementById('bar'))
-        } */
+        }
     }
     render() {
         return (
